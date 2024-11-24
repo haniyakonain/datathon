@@ -1,0 +1,29 @@
+/* App.css */
+nav {
+    background-color: #4CAF50; /* Green background */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
