@@ -85,7 +85,7 @@ EcoAyur is a web application built to recommend herbal remedies based on user-in
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/ecoayur.git
+   git clone git@github.com:haniyakonain/ecoayur.git
    cd ecoayur/backend
    ```
 
@@ -182,5 +182,5 @@ EcoAyur is a web application built to recommend herbal remedies based on user-in
 
 - **Responsive Design**:
   - The UI adapts seamlessly to mobile and desktop views, utilizing Flexbox and Grid layouts for flexible containers and adaptive styling.
-```
+
 
