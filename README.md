@@ -45,18 +45,92 @@ EcoAyur is a web application built to recommend herbal remedies based on user-in
   
 ### Project Structure:
 ```bash
-- frontend/                   # React.js frontend
-    - public/
-    - src/
-    - package.json
-    - index.html
-- backend/                    # Flask backend
-    - api/
-    - app.py
-    - requirements.txt
-    - model/
-    - static/
-    - templates/
+Here's the project structure in Markdown format for your README:
+
+```markdown
+# EcoAyur Project Structure
+
+## Root Directory
+```Here’s how you can represent your project structure in a markdown format:
+
+```markdown
+# Project Structure
+
+```
+├── backend
+│   ├── app.py
+│   ├── data
+│   │   └── herbal_remedies.csv
+│   ├── ml_model.py
+│   ├── __pycache__
+│   │   ├── app.cpython-312.pyc
+│   │   └── ml_model.cpython-312.pyc
+│   └── vercel.json
+├── description.txt
+├── frontend
+│   ├── dist
+│   │   ├── assets
+│   │   │   ├── index-CbW0Rfu5.js
+│   │   │   └── index-ogUblkbw.css
+│   │   ├── herbs
+│   │   └── index.html
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── postcss.config.js
+│   ├── public
+│   │   └── herbs
+│   ├── src
+│   │   ├── api
+│   │   │   └── axios.js
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── assets
+│   │   │   └── herbs
+│   │   ├── components
+│   │   │   ├── Benefits.jsx
+│   │   │   ├── BlogDetail.jsx
+│   │   │   ├── Blog.jsx
+│   │   │   ├── BlogPost.jsx
+│   │   │   ├── ExampleComponent.jsx
+│   │   │   ├── Farmers.jsx
+│   │   │   ├── Health.jsx
+│   │   │   ├── HerbDetail.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── NavBar.jsx
+│   │   │   ├── RecommendationResults.jsx
+│   │   │   ├── styles
+│   │   │   │   ├── benefits.css
+│   │   │   │   ├── blog.css
+│   │   │   │   ├── farmers.css
+│   │   │   │   ├── health.css
+│   │   │   │   ├── herbDetail.css
+│   │   │   │   ├── home.css
+│   │   │   │   ├── main.css
+│   │   │   │   ├── navbar.css
+│   │   │   │   ├── Recommendations.css
+│   │   │   │   └── SymptomChecker.css
+│   │   │   ├── SymptomChecker.jsx
+│   │   │   ├── SymptomForm.jsx
+│   │   │   ├── SymptomSelector.jsx
+│   │   │   └── TestConnection.jsx
+│   │   ├── config.js
+│   │   ├── data
+│   │   │   └── symptoms.js
+│   │   ├── images.js
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   ├── pages
+│   │   │   └── Home.jsx
+│   │   └── services
+│   │       ├── api.js
+│   │       └── soilService.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
+└── requirements.txt
+```
+
 ## Backend Functionality:
 
 ### Herbal Recommendation System:
