@@ -55,6 +55,7 @@ EcoAyur is a web application built to recommend herbal remedies based on user-in
     - app.py
     - requirements.txt
     - model/
+```
 
 ## Backend Functionality:
 
