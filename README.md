@@ -76,11 +76,6 @@ EcoAyur is a web application built to recommend herbal remedies based on user-in
 - **Recommendation System**:
   - Check the robustness of the recommendation system by testing with different symptoms.
 
----
-
-Here is the content converted into **Markdown format**:
-
-```markdown
 # EcoAyur: Herbal Medicine Recommendation System
 
 ## Installation and Setup
